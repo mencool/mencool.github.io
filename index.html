@@ -70,6 +70,44 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-js-图像旋转" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/06/19/js-%E5%9B%BE%E5%83%8F%E6%97%8B%E8%BD%AC/" class="article-date">
+  <time datetime="2020-06-19T07:56:43.134Z" itemprop="datePublished">2020-06-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/06/19/js-%E5%9B%BE%E5%83%8F%E6%97%8B%E8%BD%AC/">JS-定制-图形旋转</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> x1 = startLeft + (startWidth / <span class="number">2</span>);</span><br><span class="line"><span class="keyword">const</span> y1 = startTop + (startHeight / <span class="number">2</span>);</span><br><span class="line"><span class="keyword">const</span> origin = <span class="built_in">Math</span>.atan2(startWidth / <span class="number">2</span>, startHeight / <span class="number">2</span>) / <span class="built_in">Math</span>.PI * <span class="number">180</span>;</span><br><span class="line"><span class="keyword">const</span> deg = <span class="built_in">Math</span>.atan2((pageX * <span class="number">2</span>) - x1,y1 - (pageY * <span class="number">2</span>)) / <span class="built_in">Math</span>.PI * <span class="number">180</span> - origin;</span><br></pre></td></tr></table></figure>
+<h3 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h3><p>首先找到中心点center(x1, y1);<br>然后找到操作点本身与中心点的夹角;<br>移动坐标与中心点的夹角就是操作角度deg;</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://github.com/mencool/mencool.github.io/2020/06/19/js-%E5%9B%BE%E5%83%8F%E6%97%8B%E8%BD%AC/" data-id="ckblxgthn0002psop81yv7cbh" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-js-taro-request" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/06/17/js-taro-request/" class="article-date">
@@ -99,7 +137,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://github.com/mencool/mencool.github.io/2020/06/17/js-taro-request/" data-id="ckbj1fpy70001skopcs4ab3x6" class="article-share-link">Share</a>
+      <a data-url="https://github.com/mencool/mencool.github.io/2020/06/17/js-taro-request/" data-id="ckblxgtho0003psop5c1o3myw" class="article-share-link">Share</a>
       
       
     </footer>
@@ -137,7 +175,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://github.com/mencool/mencool.github.io/2020/06/17/js-react-xunhuan/" data-id="ckbj1fpy00000skop6bd4d5gp" class="article-share-link">Share</a>
+      <a data-url="https://github.com/mencool/mencool.github.io/2020/06/17/js-react-xunhuan/" data-id="ckblxgthc0000psop0kgrhg3b" class="article-share-link">Share</a>
       
       
     </footer>
@@ -176,7 +214,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://github.com/mencool/mencool.github.io/2020/06/17/js-zhengze/" data-id="ckbj1fpyi0002skopcsj49rov" class="article-share-link">Share</a>
+      <a data-url="https://github.com/mencool/mencool.github.io/2020/06/17/js-zhengze/" data-id="ckblxgthm0001psopdf321bj2" class="article-share-link">Share</a>
       
       
     </footer>
@@ -215,6 +253,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2020/06/19/js-%E5%9B%BE%E5%83%8F%E6%97%8B%E8%BD%AC/">JS-定制-图形旋转</a>
+          </li>
         
           <li>
             <a href="/2020/06/17/js-taro-request/">js-Taro-请求封装</a>
